@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vegetable Shop</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+</head>
+<body>
+    <h2>Vegetable Tracker</h2>
+    <input type="text" id="vegName" placeholder="Vegetable Name">
+    <input type="number" id="vegPrice" placeholder="Price (Rupees/KG)">
+    <input type="number" id="vegQuantity" placeholder="Quantity (KG)">
+    <button onclick="addVegetable()">Add to Shop</button>
+<form>
+    <h3>Total Vegetables: <span id="totalVeg">0</span></h3>
+    <ul id="vegList"></ul>
+
+</form>
+<script src="script.js"></script>
+</body>
+</html>
